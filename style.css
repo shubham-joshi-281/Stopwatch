@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./images/stop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.s {
+  font-size: 2.5rem;
+}
+.box {
+  max-width: 80%;
+  padding: 2rem;
+  border-radius: 2rem;
+  background: linear-gradient(#f86d6d, #e4e442, #f4b849);
+  border: 2px solid rgb(107, 106, 106);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+h1 {
+  color: #0b0979fc;
+  padding: 1rem;
+}
+h2 {
+  padding: 2rem;
+}
+.span {
+  padding: 0.2rem;
+  font-size: 2rem;
+  color: red;
+}
+.text {
+  font-size: 1.8rem;
+  padding: 0.2rem;
+  text-transform: capitalize;
+}
+.button {
+  width: 100%;
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.start-btn {
+  background-color: rgb(1, 255, 60);
+}
+.stop-btn {
+  background-color: rgb(255, 28, 7);
+}
+.reset-btn {
+  background-color: rgb(225, 255, 0);
+}
+
+@media only screen and (max-width: 1199px) {
+  html {
+    font-size: 60%;
+  }
+  .box {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  html {
+    font-size: 58%;
+  }
+  .box {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 779px) {
+  html {
+    font-size: 55%;
+  }
+  .box {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  html {
+    font-size: 50%;
+  }
+  .box {
+    max-width: 80%;
+  }
+}
